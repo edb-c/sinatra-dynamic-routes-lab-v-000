@@ -25,7 +25,7 @@ class App < Sinatra::Base
     final_string
   end
 
-#Create a dynamic route at get '/say/:word1/:word2/:word3/:word4/:word5' that accepts five words and returns a string containing all five words (i.e. word1 word2 word3 word4 word5).
+#Create a dynamic route at get '/say/:word1https://learn.co/tracks/full-stack-web-development-v6/sinatra/forms/dynamic-routes-lab#/:word2/:word3/:word4/:word5' that accepts five words and returns a string containing all five words (i.e. word1 word2 word3 word4 word5).
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do
     "#{params[:word1]} #{params[:word2]} #{params[:word3]} #{params[:word4]} #{params[:word5]}."
